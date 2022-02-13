@@ -1,0 +1,92 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+body {
+   font-family: "Redressed", cursive;
+   font-size: 36px;
+}
+
+@font-face {
+   font-family: "Syne Tactile";
+   src: url("../fonts/SyneTactile-Regular.woff2") format("woff2"),
+      url("../fonts/SyneTactile-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+.main {
+   border: 3px dashed rgb(16, 81, 221);
+   padding-top: 10px;
+   padding-left: 30px;
+}
+
+.div {
+   /* padding-top: 20px; */
+   margin-bottom: 20px;
+   border: 2px dotted #000;
+}
+.span {
+   border-top: 2px solid rgb(204, 16, 16);
+   margin-left: 30px;
+   margin-bottom: 45px;
+   display: block;
+}
+.div-3 {
+   border-radius: 7px 20px 13px 35%;
+   margin-left: 150px;
+   margin-bottom: 65px;
+   color: rgb(20, 235, 20);
+   background-color: #77608d;
+   padding-left: 55px;
+   width: 200px;
+}
+.div-4 {
+   box-shadow: 0px 0px 30px 10px rgb(153, 144, 13);
+   font-family: "Syne Tactile", cursive;
+   margin: 0 0 20px 20px;
+}
+.div-5 {
+   max-width: 300px;
+   margin: 0 auto;
+   border: 1px solid #000;
+}
+.div-6 {
+   border: 2px dotted #000;
+   margin: 20px 0 40px 520px;
+   border-right: none;
+   border-left: none;
+}
+.img {
+   margin-left: 140px;
+   margin-bottom: 100px;
+}
+.image {
+   border-radius: 50%;
+   width: 180px;
+   height: 180px;
+   overflow: hidden;
+   border: 1px solid #000;
+}
+.div-7 {
+   width: 300px;
+   margin: 0px 0px 30px 0px;
+   box-shadow: inset 50px 0px 10px 20px rgb(51, 12, 223), 0 0 10px 0 red; /* inset - внутрення тень*/
+   border-radius: 10px;
+}
+.div-8 {
+   opacity: 0.2;
+   max-width: 400px;
+   overflow: auto;
+}
+.footer {
+   max-width: 300px;
+   margin: 0 auto;
+}
